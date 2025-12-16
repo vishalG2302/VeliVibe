@@ -515,7 +515,7 @@ export default function VideoFeed({ videos = [], startVideo }: { videos?: Video[
             creatorLamports = totalLamports - platformLamports; 
         }
 
-        tx.add(SystemProgram.transfer({ fromPubkey: sessionWallet.publicKey, toPubkey: new PublicKey(PLATFORM_WALLET as string), lamports: platformLamports }));
+        tx.add(SystemProgram.transfer({ fromPubkey: sessionWallet.publicKey, toPubkey: new PublicKey(PLATFORM_WALLET !), lamports: platformLamports }));
         if (validReferrer && referralLamports > 0) {
             tx.add(SystemProgram.transfer({ fromPubkey: sessionWallet.publicKey, toPubkey: new PublicKey(validReferrer), lamports: referralLamports }));
         }
