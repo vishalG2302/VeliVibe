@@ -455,7 +455,7 @@ export default function VideoFeed({ videos = [], startVideo }: { videos?: Video[
               SystemProgram.transfer({
                   fromPubkey: mainWallet,
                   toPubkey: sessionWallet.publicKey,
-                  lamports: 0.5 * LAMPORTS_PER_SOL 
+                  lamports: 0.01 * LAMPORTS_PER_SOL 
               })
           );
           await sendTransaction(transaction, connection!);
