@@ -220,7 +220,7 @@ const VideoCard = ({
                             {incomingAmount && (
                                 <div className="absolute -top-10 animate-out fade-out slide-out-to-top-6 duration-[2000ms] flex flex-col items-center z-50">
                                     <span className="text-white font-black text-xs drop-shadow-md bg-gradient-to-r from-purple-600 to-pink-600 px-2 py-1 rounded-full border border-pink-400/50 shadow-[0_0_15px_rgba(219,39,119,0.5)]">
-                                        +{incomingAmount.toFixed(5)}
+                                        +{incomingAmount.toFixed(6)}
                                     </span>
                                 </div>
                             )}
