@@ -1,8 +1,6 @@
 # VeilVibe
 
-**VeilVibe** – Premium short videos, veiled behind a tiny Solana paywall.  
-
-Creators upload short clips and can mark them as premium. Viewers watch free teasers — pay just **0.0001 SOL** (~$0.02) to lift the veil and watch the full video.
+**Velivibe** is a real-time, direct creator-fan economy focused on exclusive vertical micro-dramas. It offers a true win-win ecosystem: creators receive instant, on-chain payouts the moment a fan unlocks content, while fans enjoy a subscription-free experience, paying only for what they watch. Additionally, Velivibe turns viewers into promoters; fans earn a 45% commission instantly by sharing video links, while the platform retains a sustainable 10% fee.
 
 Revenue split (in one atomic Solana transaction):
 - **10%** → platform treasury
@@ -11,9 +9,11 @@ Revenue split (in one atomic Solana transaction):
 
 **Live Demo**: https://velivibe.vercel.app
 
+**Demo Video**: https://drive.google.com/file/d/19dlExHk-7Ghx0X_CRiqXvbLoc0WZfMxu/view?usp=sharing
+
 ## Features
 
-- TikTok-style vertical swipe feed
+- micro-dramas vertical swipe feed
 - Real-time video updates (Supabase Realtime)
 - Free 5-second teasers for premium content
 - Auto-pay option (unlocks automatically at 4.5s if enabled and balance sufficient)
@@ -81,8 +81,6 @@ Revenue split (in one atomic Solana transaction):
 
 
 ## Deployment
-
-Live on Vercel: https://velivibe.vercel.app
 
 To deploy your own:
 
